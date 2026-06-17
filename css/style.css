@@ -2490,5 +2490,152 @@ html[dir="rtl"] .btn-cta-large {
     text-shadow: 0 4px 20px rgba(0, 0, 0, 0.6) !important;
 }
 
+/* --- PREMIUM SPLIT-SCREEN HERO SECTION --- */
+.split-hero {
+    display: flex;
+    height: 100vh;
+    min-height: 700px;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--bg-cream);
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.split-hero-content {
+    flex: 1.1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 0 8% 0 10%;
+    background-color: var(--bg-cream);
+    z-index: 10;
+}
+
+.hero-content-inner {
+    max-width: 650px;
+}
+
+.split-hero-image {
+    flex: 0.9;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hero-img-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.split-hero:hover .hero-img-inner {
+    transform: scale(1.03);
+}
+
+.hero-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(var(--bg-cream-rgb), 1) 0%, rgba(var(--bg-cream-rgb), 0) 25%);
+    z-index: 2;
+    pointer-events: none;
+}
+
+/* Typography refinements for the new hero */
+.split-hero-content .h2g {
+    font-family: var(--font-display-en);
+    font-size: 4.5rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    line-height: 1.05;
+    color: var(--text-dark);
+    margin: 0 0 30px 0;
+}
+
+.split-hero-content .h2g .serif-italic {
+    font-size: 4.8rem;
+    font-weight: 300;
+    color: var(--accent-green);
+    letter-spacing: 0;
+}
+
+.split-hero-content .hero-desc-text {
+    font-size: 1.15rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+
+.split-hero-content .hero-cta-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.split-hero-content .hero-cta-row .btn-cta {
+    margin: 0 !important;
+}
+
+.split-hero-content .scroll-indicator-bottom {
+    position: absolute;
+    bottom: 40px;
+    left: 10%;
+    transform: none;
+    text-align: left;
+}
+
+@media (max-width: 900px) {
+    .split-hero {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .split-hero-content {
+        flex: none;
+        padding: 120px 8% 100px 8%;
+        text-align: center;
+    }
+    .hero-content-inner {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .split-hero-image {
+        flex: none;
+        height: 50vh;
+        width: 100%;
+    }
+    .hero-img-overlay {
+        background: linear-gradient(to bottom, rgba(var(--bg-cream-rgb), 1) 0%, rgba(var(--bg-cream-rgb), 0) 30%);
+    }
+    .split-hero-content .h2g {
+        font-size: 3.2rem;
+    }
+    .split-hero-content .h2g .serif-italic {
+        font-size: 3.4rem;
+    }
+    .split-hero-content .hero-cta-row {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .split-hero-content .scroll-indicator-bottom {
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+}
+
+
 
 .services-hero-content, .section-title { position: relative !important; z-index: 100 !important; }

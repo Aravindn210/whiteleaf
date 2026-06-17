@@ -613,14 +613,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Set initial states for hero elements so they don't flash before preloader finishes
     if (typeof gsap !== 'undefined') {
         console.log('[Whiteleaf Animations] Setting initial GSAP states for hero elements');
-        gsap.set('.intro_img', { 
+        gsap.set('.hero-img-inner', { 
             clipPath: 'inset(100% 100% 100% 100%)', 
             scale: 1.8, 
             opacity: 0,
             rotation: () => gsap.utils.random(-8, 8)
         });
         gsap.set('.h2g', { yPercent: 120, opacity: 0 });
-        gsap.set('.ms_txt p, .ms_txt .scroll-indicator', { opacity: 0, y: 20 });
+        gsap.set('.hero-desc-text, .scroll-indicator-bottom', { opacity: 0, y: 20 });
     }
 
     if (preloader && typeof gsap !== 'undefined') {
@@ -703,7 +703,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ease: 'power4.out'
         })
         // 2. Staggered reveal of the collage images (scale, clip-path, rotation)
-        .to('.intro_img', {
+        .to('.hero-img-inner', {
             clipPath: 'inset(0% 0% 0% 0%)',
             scale: 1,
             opacity: 1,
@@ -713,7 +713,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ease: 'power4.inOut'
         }, "-=1.4")
         // 3. Subtext reveal
-        .to('.ms_txt p, .ms_txt .scroll-indicator', {
+        .to('.hero-desc-text, .scroll-indicator-bottom', {
             opacity: 1,
             y: 0,
             duration: 1,
@@ -722,7 +722,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }, "-=1.0");
 
         // 4. Parallax scroll effect on floating intro images as you scroll down
-        const introImages = gsap.utils.toArray('.intro_img');
+        const introImages = gsap.utils.toArray('.hero-img-inner');
         introImages.forEach((img, idx) => {
             const depth = (idx + 1) * 20; // varying depths for 3D feel
             gsap.to(img, {
