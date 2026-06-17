@@ -626,7 +626,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (preloader && typeof gsap !== 'undefined') {
         console.log('[Whiteleaf Animations] Starting preloader timeline');
         // Make preloader background pure dark for premium contrast
-        preloader.style.backgroundColor = '#FDFCF9';
+        preloader.style.backgroundColor = "#FDFCF9";
 
         const tlPreloader = gsap.timeline();
         if (lenis) {

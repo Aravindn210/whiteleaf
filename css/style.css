@@ -61,7 +61,7 @@ html[dir="rtl"] {
 
 html {
     scroll-behavior: smooth;
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
     color: var(--text-dark);
     font-family: var(--font-body-en);
     overflow-x: hidden;
@@ -69,7 +69,7 @@ html {
 }
 
 body {
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
     overflow-x: hidden;
     transition: background-color 0.4s ease, color 0.4s ease;
 }
@@ -99,7 +99,7 @@ html.lenis, html.lenis body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
     z-index: 9999;
     display: flex;
     justify-content: center;
@@ -151,7 +151,7 @@ html.lenis, html.lenis body {
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--bg-cream);
+    background: #FDFCF9;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -412,7 +412,7 @@ html[dir="rtl"] .nav-links a:not(.btn-cta)::after {
 
 .btn-cta {
     background-color: var(--accent-green);
-    color: var(--bg-cream) !important;
+    color: #FDFCF9 !important;
     border: 1px solid var(--accent-green);
     padding: 12px 28px;
     border-radius: 40px;
@@ -441,7 +441,7 @@ html[dir="rtl"] .btn-cta {
 .btn-cta:hover {
     background-color: var(--accent-bronze);
     border-color: var(--accent-bronze);
-    color: var(--bg-cream) !important;
+    color: #FDFCF9 !important;
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(var(--accent-bronze-rgb), 0.4);
 }
@@ -583,7 +583,7 @@ html:not(.dark-mode) .sun-icon {
 .mn_screen {
     position: relative;
     height: 100vh;
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
     overflow: hidden;
     z-index: 50;
     display: flex;
@@ -909,7 +909,7 @@ html[dir="rtl"] .btn-explore {
 .btn-explore:hover .arrow-circle {
     border-color: var(--accent-bronze);
     background-color: var(--accent-bronze);
-    color: var(--bg-cream);
+    color: #FDFCF9;
     transform: translateY(5px);
     box-shadow: 0 8px 25px rgba(var(--accent-bronze-rgb), 0.25);
 }
@@ -947,7 +947,7 @@ html[dir="rtl"] .scroll-indicator {
 .pillars-grid {
     display: flex;
     height: 90vh;
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -1118,7 +1118,7 @@ html[dir="rtl"] .pillar-card:hover .card-arrow {
    ========================================================================== */
 .about {
     padding: 130px 8%;
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -1217,7 +1217,7 @@ html[dir="rtl"] .stat-label {
    ========================================================================== */
 .projects {
     padding: 130px 8%;
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -1376,7 +1376,7 @@ html[dir="rtl"] .project-details span {
 }
 
 .process-step {
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
     border: 1px solid var(--border-color);
     border-radius: 20px; /* Smooth corners */
     padding: 40px 30px;
@@ -1421,7 +1421,7 @@ html[dir="rtl"] .project-details span {
    ========================================================================== */
 .contact {
     padding: 130px 8% 60px 8%;
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
 }
 
 .contact-grid {
@@ -1535,7 +1535,7 @@ html[dir="rtl"] .form-label {
     color: var(--accent-bronze);
     letter-spacing: 1px;
     text-transform: uppercase;
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
     padding: 0 8px;
 }
 
@@ -1555,7 +1555,7 @@ html[dir="rtl"] .form-input:valid ~ .form-label {
     align-self: flex-start;
     background-color: var(--text-dark);
     border: 1px solid var(--text-dark);
-    color: var(--bg-cream);
+    color: #FDFCF9;
     padding: 15px 40px;
     border-radius: 40px;
     font-family: var(--font-body-en);
@@ -1650,7 +1650,7 @@ html[dir="rtl"] .social-links a {
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
     z-index: 999;
     display: flex;
     flex-direction: column;
@@ -1690,7 +1690,7 @@ html[dir="rtl"] .social-links a {
     margin-top: 15px;
     border: 1px solid var(--accent-green);
     background-color: var(--accent-green);
-    color: var(--bg-cream);
+    color: #FDFCF9;
     padding: 12px 35px;
     border-radius: 40px;
     font-size: 0.9rem;
@@ -1703,7 +1703,7 @@ html[dir="rtl"] .social-links a {
 .mobile-nav-links .btn-cta-mobile:hover {
     background-color: #8C8C8C;
     border-color: #8C8C8C;
-    color: var(--bg-cream);
+    color: #FDFCF9;
 }
 
 .lang-switch-btn-mobile {
@@ -1744,7 +1744,7 @@ html[dir="rtl"] .social-links a {
     overflow: hidden;
     white-space: nowrap;
     padding: 60px 0;
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
     border-bottom: 1px solid var(--border-color);
     display: flex;
     align-items: center;
@@ -1955,7 +1955,7 @@ html.dark-mode .hero-collage-card:hover {
     position: relative;
     padding: 0 8%;
     overflow: hidden;
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
     border-bottom: 1px solid var(--border-color);
     text-align: center;
     transition: background-color 0.4s ease, border-color 0.4s ease;
@@ -2020,7 +2020,7 @@ html[dir="rtl"] .services-hero-tag {
 /* Services Detail Items layout */
 .services-detail-section {
     padding: 120px 8%;
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
     transition: background-color 0.4s ease;
 }
 
@@ -2274,7 +2274,7 @@ html.dark-mode .material-card {
 /* Services CTA */
 .services-cta {
     padding: 120px 8%;
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
     text-align: center;
     border-bottom: 1px solid var(--border-color);
     transition: background-color 0.4s ease, border-color 0.4s ease;
@@ -2304,7 +2304,7 @@ html.dark-mode .material-card {
     display: inline-block;
     padding: 18px 45px;
     background-color: var(--text-dark);
-    color: var(--bg-cream);
+    color: #FDFCF9;
     border: 1px solid var(--text-dark);
     border-radius: 40px;
     font-family: var(--font-body-en);
@@ -2329,7 +2329,7 @@ html[dir="rtl"] .btn-cta-large {
 /* Simple simple simple footer */
 .footer-simple {
     padding: 40px 8%;
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
     transition: background-color 0.4s ease;
 }
 
@@ -2418,10 +2418,10 @@ html[dir="rtl"] .btn-cta-large {
 
 /* --- REFINEMENT OVERRIDES (White Theme specific) --- */
 /* Fix marquee starting from center */
-.brand-ticker {
+.marquee-wrap {
     width: 100%;
     overflow: hidden;
-    background-color: var(--bg-cream);
+    background-color: #FDFCF9;
     padding: 20px 0;
     border-top: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
@@ -2429,13 +2429,13 @@ html[dir="rtl"] .btn-cta-large {
     display: flex;
     justify-content: flex-start;
 }
-.marquee-content {
+.marquee-track {
     display: flex;
     animation: marquee 30s linear infinite;
     align-items: center;
     width: fit-content;
 }
-.marquee-content span {
+.marquee-track span {
     font-family: var(--font-display-en);
     font-size: 1.2rem;
     font-weight: 600;
@@ -2462,3 +2462,5 @@ html[dir="rtl"] .btn-cta-large {
 .section-title h2, .section-title h3 {
     color: var(--text-dark) !important;
 }
+
+.services-hero-content, .section-title { position: relative !important; z-index: 100 !important; }
