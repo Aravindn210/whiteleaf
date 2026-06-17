@@ -2473,5 +2473,22 @@ html[dir="rtl"] .btn-cta-large {
     margin: 0 !important;
 }
 
+/* --- DARK BACKGROUND CONTRAST FIXES --- */
+/* 1. Curved Pillars Grid (3-Pillar Showcases) */
+.pillar-card .card-content span,
+.pillar-card .card-content h2,
+.pillar-card .card-content p,
+.pillar-card .card-content .card-arrow {
+    color: #FDFCF9 !important;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* 2. Selemen Style Parallax Sections */
+.parallax_sections .h2s,
+.parallax_sections .txt.vs {
+    color: #FDFCF9 !important;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.6) !important;
+}
+
 
 .services-hero-content, .section-title { position: relative !important; z-index: 100 !important; }
