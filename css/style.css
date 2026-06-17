@@ -2463,4 +2463,15 @@ html[dir="rtl"] .btn-cta-large {
     color: var(--text-dark) !important;
 }
 
+/* --- RESPONSIVE LAYOUT FIXES --- */
+/* Prevent hero content from overlapping the scroll indicator on short screens */
+.mn_screen {
+    min-height: 700px; 
+}
+/* Fix offset hero buttons caused by global navbar margin */
+.hero-cta-row .btn-cta {
+    margin: 0 !important;
+}
+
+
 .services-hero-content, .section-title { position: relative !important; z-index: 100 !important; }
