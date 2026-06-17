@@ -2415,3 +2415,50 @@ html[dir="rtl"] .btn-cta-large {
         font-size: 0.8rem;
     }
 }
+
+/* --- REFINEMENT OVERRIDES (White Theme specific) --- */
+/* Fix marquee starting from center */
+.brand-ticker {
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--bg-cream);
+    padding: 20px 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    white-space: nowrap;
+    display: flex;
+    justify-content: flex-start;
+}
+.marquee-content {
+    display: flex;
+    animation: marquee 30s linear infinite;
+    align-items: center;
+    width: fit-content;
+}
+.marquee-content span {
+    font-family: var(--font-display-en);
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--accent-bronze);
+    padding-right: 50px;
+    display: inline-block;
+}
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* Ensure Services Hero text is visible */
+.services-hero .hero-bg {
+    opacity: 0.15; /* Lighten background image */
+}
+.services-hero-content h1, .services-hero-content p, .services-hero-tag {
+    color: var(--text-dark) !important;
+    text-shadow: none !important;
+}
+
+/* Ensure Featured Projects heading is visible */
+.section-title h2, .section-title h3 {
+    color: var(--text-dark) !important;
+}

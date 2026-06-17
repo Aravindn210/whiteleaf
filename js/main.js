@@ -1,4 +1,4 @@
-console.log('%c[Whiteleaf Animations] main.js file loaded at top-level', 'background: #241C24; color: #9DCB47; font-size: 14px; font-weight: bold; padding: 4px;');
+console.log('%c[Whiteleaf Animations] main.js file loaded at top-level', 'background: #FDFCF9; color: #9DCB47; font-size: 14px; font-weight: bold; padding: 4px;');
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log('[Whiteleaf Animations] DOMContentLoaded fired');
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ar: 'لبيئات ملهمة.'
         },
         'hero-desc': {
-            en: 'We design and execute award-winning international trade show pavilions, turnkey corporate office interiors, and luxury brand launch experiences across Dubai and globally.',
+            en: 'We design and execute award-winning international trade show pavilions, corporate office interiors, and luxury brand launch experiences across Dubai and globally.',
             ar: 'نقوم بتصميم وتنفيذ أجنحة المعارض الدولية الحائزة على جوائز، والتصميم الداخلي المتميز للمكاتب والشركات، وفعاليات إطلاق العلامات التجارية الفاخرة في دبي والعالم.'
         },
         'hero-btn': {
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ar: 'اكتشف أعمالنا'
         },
         'services-hero-tag': {
-            en: 'Turnkey Mastery',
+            en: 'Mastery',
             ar: 'إتقان تسليم المفتاح'
         },
         'services-hero-title': {
@@ -75,11 +75,11 @@ document.addEventListener('DOMContentLoaded', () => {
             ar: '٠١ / التجهيز المعماري'
         },
         'service-1-title': {
-            en: 'Turnkey Interior Design & Fit-Out',
+            en: 'Interior Design & Fit-Out',
             ar: 'التصميم الداخلي المتكامل والتجهيز'
         },
         'service-1-desc': {
-            en: 'We create corporate offices and commercial settings that cultivate productivity and project brand authority. Our turnkey interior division handles spatial layouts, detailed 3D rendering, authority approvals (Dubai Municipality, Civil Defense), custom joinery, MEP engineering, and structural execution.',
+            en: 'We create corporate offices and commercial settings that cultivate productivity and project brand authority. Our interior division handles spatial layouts, detailed 3D rendering, authority approvals (Dubai Municipality, Civil Defense), custom joinery, MEP engineering, and structural execution.',
             ar: 'نبتكر مساحات عمل ومحلات تجارية تعزز الإنتاجية وتجسد حضور العلامة التجارية. يتولى قسم التصميم الداخلي لدينا تخطيط المساحات، والمخططات التنفيذية، والموافقات الحكومية (بلدية دبي، الدفاع المدني)، والتصنيع، والأعمال الكهروميكانيكية، والتشطيبات النهائية.'
         },
         'service-1-feat-1': {
@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ar: 'منصات وأجنحة عرض مخصصة ومصممة خصيصاً للمعارض التجارية الدولية لزيادة الحضور والتأثير الفعال للعلامة التجارية.'
         },
         'pillar-span-2': {
-            en: '02 // TURNKEY FIT-OUT',
+            en: '02 // FIT-OUT',
             ar: '٠٢ // تسليم مفتاح متكامل'
         },
         'pillar-title-2': {
@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ar: 'التصميم الداخلي'
         },
         'pillar-desc-2': {
-            en: 'Premium corporate offices, high-end commercial showrooms, and luxury workspaces designed with spatial precision and turnkey delivery.',
+            en: 'Premium corporate offices, high-end commercial showrooms, and luxury workspaces designed with spatial precision and delivery.',
             ar: 'مكاتب شركات متميزة، وصالات عرض تجارية راقية، ومساحات عمل فاخرة مصممة بدقة هندسية وتسليم متكامل بالكامل.'
         },
         'pillar-span-3': {
@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ar: 'نؤمن بأن المساحة هي لوحة لسرد القصص. وسواء كان جناح عرض مؤقتاً في مؤتمر عالمي أو مكتباً رئيسياً لشركة في دبي، يجب أن يعكس الشكل صوتاً معمارياً راقياً وفخامة هادئة تتحدث بوضوح دون صخب.'
         },
         'about-desc-2': {
-            en: 'With integrated design studios, engineering teams, and in-house fabrication facilities in Dubai and Mumbai, we offer complete turnkey project control from visualization to structural delivery.',
+            en: 'With integrated design studios, engineering teams, and in-house fabrication facilities in Dubai and Mumbai, we offer complete project control from visualization to structural delivery.',
             ar: 'مع استوديوهات تصميم متكاملة، وفرق هندسية، ومرافق تصنيع داخلية في دبي ومومباي، نقدم تحكماً شاملاً بالكامل للمشروع بدءاً من الفكرة والتخيل وحتى التسليم الإنشائي الفعلي.'
         },
         'stat-label-1': {
@@ -267,7 +267,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ar: 'مشروع تم تسليمه'
         },
         'stat-label-3': {
-            en: 'On-Time Turnkey Delivery',
+            en: 'On-Time Delivery',
             ar: 'تسليم متكامل في الوقت المحدد'
         },
         'portfolio-tag': {
@@ -315,7 +315,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ar: 'منهجيتنا'
         },
         'process-title': {
-            en: 'THE TURNKEY PATH',
+            en: 'THE PATH',
             ar: 'مسار التسليم المتكامل'
         },
         'step-title-1': {
@@ -626,7 +626,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (preloader && typeof gsap !== 'undefined') {
         console.log('[Whiteleaf Animations] Starting preloader timeline');
         // Make preloader background pure dark for premium contrast
-        preloader.style.backgroundColor = '#241C24';
+        preloader.style.backgroundColor = '#FDFCF9';
 
         const tlPreloader = gsap.timeline();
         if (lenis) {
