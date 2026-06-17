@@ -32,30 +32,7 @@ html {
     --navbar-bg-scrolled: rgba(253, 252, 249, 0.98);
 }
 
-/* Dark Mode Overrides */
-html.dark-mode {
-    --bg-cream: #241C24;
-    --bg-cream-rgb: 36, 28, 36;
-    --bg-gray-cream: #241C24;
-    --bg-thunder: #241C24;
-    --bg-card: #241C24;
-    
-    --accent-green: #9DCB47;   /* Atlantis */
-    --accent-green-rgb: 157, 203, 71;
-    --accent-bronze: #9DCB47;  /* Atlantis */
-    --accent-bronze-rgb: 157, 203, 71;
-    
-    --text-dark: #8C8C8C;
-    --text-light: #8C8C8C;
-    --text-muted: #948C8C;
-    --text-muted-light: #8C8C8C;
-    
-    --border-color: rgba(148, 140, 140, 0.15);
-    --border-color-light: rgba(148, 140, 140, 0.08);
 
-    --navbar-bg: rgba(36, 28, 36, 0.8);
-    --navbar-bg-scrolled: rgba(36, 28, 36, 0.95);
-}
 
 /* RTL (Arabic) Variable Overrides */
 html[dir="rtl"] {
